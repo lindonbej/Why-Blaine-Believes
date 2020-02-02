@@ -1,0 +1,37 @@
+.navbox {
+    border: 2px solid #414141;
+    padding: 5px;
+}
+
+.navbox-list {
+    list-style: none;
+}
+
+/* Tablet and Desktop Styles */
+@media only screen and (min-width: 401px) {
+    .page {
+        max-width: 1325px;
+        margin: 0 auto;
+    }
+
+    .subcontent {
+        display: flex;
+    }
+
+    .navbox {
+        height: 400px;
+        margin-top: 30px;
+    }
+
+    .navbox-list {
+        width: 200px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .copy {
+        margin: 20px;
+    }
+}

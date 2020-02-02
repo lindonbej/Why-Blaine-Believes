@@ -1,0 +1,19 @@
+#about-jesus {
+    width: 350px;
+}
+
+#about-portrait {
+    width: 350px;
+}
+
+/* Tablet and Desktop Styles */
+@media only screen and (min-width: 401px) {
+    .page {
+        max-width: 1325px;
+        margin: 0 auto;
+    }
+
+    .copy {
+        margin: 20px;
+    }
+}
